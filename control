@@ -1,0 +1,9 @@
+Package: com.rango.angrybird
+Name: AngryBird
+Author: Yung Specht
+Description: Duolingo Plus for free!
+Depends: mobilesubstrate
+Maintainer: Yung Specht
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 0.1
