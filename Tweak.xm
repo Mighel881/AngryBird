@@ -26,9 +26,7 @@
 - (bool)isDropdownAvailable {
     return 0;
 } 
-%end
 
-%hook DuolingoMobilePlusStreakDiscountCoordinator
 - (bool)shouldPresentModally {
     return %orig;
 } 
@@ -74,7 +72,6 @@
 } 
 %end
 
-%hook FBRewardedVideoAd
 - (bool)showAdFromRootViewController:(id)arg1 animated:(bool)arg2 {
     return 0;
 } 
@@ -96,9 +93,7 @@
 - (bool)showAdFromRootViewController:(id)arg1 {
     return %orig;
 } 
-%end
 
-%hook FBInterstitialAdInternal
 - (bool)showAdFromRootViewController:(id)arg1 animated:(bool)arg2 {
     return 0;
 } 
@@ -108,9 +103,7 @@
 - (bool)showAdFromRootViewController:(id)arg1 {
     return 0;
 } 
-%end
 
-%hook FBInterstitialDisplayAdInternal
 - (bool)showAdFromRootViewController:(id)arg1 animated:(bool)arg2 {
     return 0;
 } 
@@ -120,9 +113,7 @@
 - (bool)showAdFromRootViewController:(id)arg1 {
     return 0;
 } 
-%end
 
-%hook FBInterstitialVideoAdInternal
 - (bool)showAdFromRootViewController:(id)arg1 animated:(bool)arg2 {
     return 0;
 } 
@@ -138,9 +129,7 @@
 - (bool)showAdFromRootViewController:(id)arg1 {
     return 0;
 } 
-%end
 
-%hook FBRewardedVideoAdVideoInternal
 - (bool)showAdFromRootViewController:(id)arg1 animated:(bool)arg2 {
     return 0;
 } 
@@ -150,9 +139,7 @@
 - (bool)showAdFromRootViewController:(id)arg1 {
     return 0;
 } 
-%end
 
-%hook FBRewardedVideoAdEndCardInternal
 - (bool)showAdFromRootViewController:(id)arg1 animated:(bool)arg2 {
     return 0;
 } 
@@ -168,27 +155,19 @@
 - (bool)shouldShowPlusPromotionSessionEndVC {
     return 0;
 } 
-%end
 
-%hook DUOPlusPromotionCoordinator
 - (bool)isModelForPromotionPlusPurchasePageNewYearsLights {
     return 0;
 } 
-%end
 
-%hook DUOPlusPromotionCoordinator
 - (bool)shouldShowPlusPromotionShopCell {
     return 0;
 } 
-%end
 
-%hook DUOPlusPromotionCoordinator
 - (bool)isModelForPromotionPlusPurchasePageNewYearsFireworks {
     return 0;
 } 
-%end
 
-%hook DUOPlusPromotionCoordinator
 - (bool)shouldShowSkillTreePromotion {
     return 0;
 } 
