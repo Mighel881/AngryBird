@@ -26,7 +26,6 @@
 - (bool)isDropdownAvailable {
     return 0;
 } 
-
 - (bool)shouldPresentModally {
     return %orig;
 } 
@@ -70,8 +69,6 @@
 - (bool)showAdFromRootViewController:(id)arg1 {
     return 0;
 } 
-%end
-
 - (bool)showAdFromRootViewController:(id)arg1 animated:(bool)arg2 {
     return 0;
 } 
@@ -93,7 +90,6 @@
 - (bool)showAdFromRootViewController:(id)arg1 {
     return %orig;
 } 
-
 - (bool)showAdFromRootViewController:(id)arg1 animated:(bool)arg2 {
     return 0;
 } 
@@ -103,7 +99,6 @@
 - (bool)showAdFromRootViewController:(id)arg1 {
     return 0;
 } 
-
 - (bool)showAdFromRootViewController:(id)arg1 animated:(bool)arg2 {
     return 0;
 } 
@@ -113,7 +108,6 @@
 - (bool)showAdFromRootViewController:(id)arg1 {
     return 0;
 } 
-
 - (bool)showAdFromRootViewController:(id)arg1 animated:(bool)arg2 {
     return 0;
 } 
@@ -129,7 +123,6 @@
 - (bool)showAdFromRootViewController:(id)arg1 {
     return 0;
 } 
-
 - (bool)showAdFromRootViewController:(id)arg1 animated:(bool)arg2 {
     return 0;
 } 
@@ -139,7 +132,6 @@
 - (bool)showAdFromRootViewController:(id)arg1 {
     return 0;
 } 
-
 - (bool)showAdFromRootViewController:(id)arg1 animated:(bool)arg2 {
     return 0;
 } 
@@ -155,19 +147,15 @@
 - (bool)shouldShowPlusPromotionSessionEndVC {
     return 0;
 } 
-
 - (bool)isModelForPromotionPlusPurchasePageNewYearsLights {
     return 0;
 } 
-
 - (bool)shouldShowPlusPromotionShopCell {
     return 0;
 } 
-
 - (bool)isModelForPromotionPlusPurchasePageNewYearsFireworks {
     return 0;
 } 
-
 - (bool)shouldShowSkillTreePromotion {
     return 0;
 } 
